@@ -1,0 +1,9 @@
+QUESTION 2:
+
+s = input("Sentence: ")
+
+print("Characters:", len(s))
+print("Words:", len(s.split()))
+print("Vowels:", sum(1 for c in s.lower() if c in "aeiou"))
+print("Spaces:", s.count(" "))
+print("Digits:", sum(1 for c in s if c.isdigit()))

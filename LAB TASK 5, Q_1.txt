@@ -1,0 +1,9 @@
+QUESTION:1
+
+info = (
+    input("Name: "),
+    int(input("Age: ")),
+    input("Program: "),
+    float(input("Marks: "))
+)
+print("Tuple:", info)
